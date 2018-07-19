@@ -198,7 +198,7 @@ bar {
 }
 
 #Rofi & Screenshot
-bindsym Print exec spectacle
+bindsym Print exec import -window root /home/dan/downloads/screenshots/screenshot_$(date +%F_%H%M%S_%N).png 
 
 #Open Thunar
 bindsym $mod+e exec thunar
