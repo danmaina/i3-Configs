@@ -189,7 +189,7 @@ bar {
         status_command i3blocks -c ~/.config/i3/i3blocks.conf
 	colors {
 		background $bg-color
-	    	separator #757575
+	    	separator #ffff75
 		#                  border             background         text
 		focused_workspace  $bg-color          $bg-color          $text-color
 		inactive_workspace $inactive-bg-color $inactive-bg-color $inactive-text-color
@@ -206,9 +206,9 @@ bindsym $mod+e exec thunar
 bindsym $mod+l exec i3lock --color "$bg-color"
 
 # Pulse Audio controls
-bindsym XF86AudioRaiseVolume exec pactl set-sink-volume 0 +5% #increase sound volume
-bindsym XF86AudioLowerVolume exec pactl set-sink-volume 0 -5% #decrease sound volume
-bindsym XF86AudioMute exec pactl set-sink-mute 0 toggle # mute sound
+#bindsym XF86AudioRaiseVolume exec pactl set-sink-volume 0 +5% #increase sound volume
+#bindsym XF86AudioLowerVolume exec pactl set-sink-volume 0 -5% #decrease sound volume
+#bindsym XF86AudioMute exec pactl set-sink-mute 0 toggle # mute sound
 
 # Sreen brightness controls
 bindsym XF86MonBrightnessUp exec xbacklight -inc 20 # increase screen brightness
