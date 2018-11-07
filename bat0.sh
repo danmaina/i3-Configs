@@ -31,7 +31,7 @@ close(ACPI);
 
 # fail on unexpected output
 if ($acpi !~ /: (\w+), (\d+)%/) {
-	die "$acpi\n";
+    die "$acpi\n";
 }
 
 $status = $1;
@@ -43,7 +43,7 @@ if ($status eq 'Discharging') {
 } elsif ($status eq 'Charging') {
 	$full_text .= ' CHR';
 } elsif ($status eq 'Unknown') {
-	open (AC_ADAPTER, "acpi -a |") or die;
+open (AC_ADAPTER, "acpi -a |") or exit(0);
 	$ac_adapt = <AC_ADAPTER>;
 	close(AC_ADAPTER);
 
@@ -65,7 +65,7 @@ if ($acpi =~ /(\d\d:\d\d):/) {
 }
 
 # print text
-print "$full_text\n";
+#print "$full_text\n";
 print "$short_text\n";
 
 # consider color and urgent flag only on discharge
@@ -77,13 +77,13 @@ if ($status eq 'Discharging') {
 		print "#FFAE00\n";
 	} elsif ($percent < 60) {
 		print "#FFF600\n";
-		print 
+		print
 	} elsif ($percent < 85) {
 		print "#A8FF00\n";
 	}
 
 	if ($percent < 5) {
-		exit(33);
+		exit(0);
 	}
 }
 
