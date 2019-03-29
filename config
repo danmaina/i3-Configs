@@ -228,7 +228,6 @@ bindsym XF86TouchpadToggle exec /some/path/toggletouchpad.sh # toggle touchpad
 exec pa-applet
 exec jetbrains-toolbox
 exec slack
-exec whatsapp-nativefier
 exec telegram-desktop
 exec skypeforlinux
 #enable touchpad taps
