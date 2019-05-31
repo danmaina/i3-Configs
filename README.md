@@ -2,4 +2,4 @@
 i3 Configuration files
 
 # Description
-Configuration Files for My I3 Desktop
+Configuration Files for i3 Desktop
