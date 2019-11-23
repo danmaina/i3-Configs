@@ -228,9 +228,9 @@ bindsym XF86TouchpadToggle exec /some/path/toggletouchpad.sh # toggle touchpad
 exec pa-applet
 exec jetbrains-toolbox
 exec ao
-exec xfce4-clipman
+exec copyq 
 exec p3x-onenote
-exec franz
+exec skypeforlinux
 #enable touchpad taps
 exec xinput set-prop 12 279 1
 exec compton -cCGfF -o 0.38 -O 200 -I 200 -t 0 -l 0 -r 3 -D2 -m 0.88
