@@ -227,7 +227,6 @@ bindsym XF86TouchpadToggle exec /some/path/toggletouchpad.sh # toggle touchpad
 #Auto Start Apps
 exec pa-applet
 exec jetbrains-toolbox
-exec ao
 exec copyq 
 exec p3x-onenote
 exec skypeforlinux
