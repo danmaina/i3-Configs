@@ -216,7 +216,7 @@ hide_edge_borders both
 exec_always sh ~/.config/polybar/launch.sh
 
 #Rofi & Screenshot
-bindsym Print exec spectacle 
+bindsym Print exec flameshot launcher 
 
 #Open Thunar
 bindsym $mod+e exec thunar
@@ -242,7 +242,7 @@ bindsym XF86TouchpadToggle exec /some/path/toggletouchpad.sh # toggle touchpad
 
 #Auto Start Apps
 exec pa-applet
-exec jetbrains-toolbox
+#exec jetbrains-toolbox
 exec copyq 
 exec p3x-onenote
 exec skypeforlinux
