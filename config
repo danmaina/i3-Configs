@@ -263,7 +263,7 @@ exec onenote-desktop # Must be installed via snap
 exec skypeforlinux
 exec blueman-applet
 exec flameshot
-exec telegram-desktop
+#exec telegram-desktop
 exec slack
 #enable touchpad taps
 #exec xinput set-prop 12 279 1
