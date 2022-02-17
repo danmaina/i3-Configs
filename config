@@ -256,6 +256,7 @@ bindsym --release Num_Lock  exec pkill -SIGRTMIN+11 i3blocks
 bindsym XF86TouchpadToggle exec /some/path/toggletouchpad.sh # toggle touchpad
 
 #Auto Start Apps
+exec thunar --daemon &
 exec pa-applet
 #exec jetbrains-toolbox
 exec copyq 
