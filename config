@@ -256,7 +256,7 @@ bindsym --release Num_Lock  exec pkill -SIGRTMIN+11 i3blocks
 bindsym XF86TouchpadToggle exec /some/path/toggletouchpad.sh # toggle touchpad
 
 #Auto Start Apps
-exec feh --bg-scale /home/dan/Pictures/desktop/desktop.webp
+exec feh --bg-scale /home/dan/Pictures/desktop/desktop.jpg
 exec thunar --daemon &
 exec pa-applet
 #exec jetbrains-toolbox
@@ -266,8 +266,7 @@ exec blueman-applet
 exec flameshot
 #exec telegram-desktop
 exec slack
-exec planning
+#exec planning
 #enable touchpad taps
 #exec xinput set-prop 12 279 1
-#exec compton -cCGfF -o 0.38 -O 200 -I 200 -t 0 -l 0 -r 3 -D2 -m 0.88
 
