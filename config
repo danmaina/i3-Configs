@@ -267,6 +267,7 @@ exec flameshot
 #exec telegram-desktop
 exec slack
 #exec planning
+exec insync start
 #enable touchpad taps
 #exec xinput set-prop 12 279 1
 exec /home/andir/.screenlayout/home-screen-setup.sh
