@@ -269,4 +269,4 @@ exec slack
 #exec planning
 #enable touchpad taps
 #exec xinput set-prop 12 279 1
-
+exec /home/andir/.screenlayout/home-screen-setup.sh
