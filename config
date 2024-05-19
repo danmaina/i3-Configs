@@ -234,7 +234,7 @@ exec_always sh ~/.config/polybar/launch.sh
 bindsym Print exec flameshot gui 
 
 #Open Thunar
-bindsym $mod+e exec thunar
+bindsym $mod+e exec GTK_THEME=Arc-Dark nautilus
 #Lock Screen
 bindsym $mod+l exec i3lock --color "$bg-color"
 
@@ -257,7 +257,6 @@ bindsym XF86TouchpadToggle exec /some/path/toggletouchpad.sh # toggle touchpad
 
 #Auto Start Apps
 exec feh --bg-scale /home/dan/Pictures/desktop/desktop.jpg
-exec thunar --daemon &
 exec pa-applet
 #exec jetbrains-toolbox
 exec copyq 
@@ -268,7 +267,6 @@ exec flameshot
 exec slack
 #exec planning
 exec insync start
-exec clickup
 #enable touchpad taps
 #exec xinput set-prop 12 279 1
 exec /home/andir/.screenlayout/home-screen-setup.sh
