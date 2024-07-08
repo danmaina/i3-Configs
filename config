@@ -30,7 +30,8 @@ font pango:System Liberation Sans 8
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec i3-sensible-terminal
+#bindsym $mod+Return exec i3-sensible-terminal
+bindsym $mod+Return exec alacritty
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -256,7 +257,7 @@ bindsym --release Num_Lock  exec pkill -SIGRTMIN+11 i3blocks
 bindsym XF86TouchpadToggle exec /some/path/toggletouchpad.sh # toggle touchpad
 
 #Auto Start Apps
-exec feh --bg-scale /home/dan/Pictures/desktop/desktop.jpg
+exec feh --bg-scale /home/andir/Pictures/desktop/golang.webp
 exec pa-applet
 #exec jetbrains-toolbox
 exec copyq 
