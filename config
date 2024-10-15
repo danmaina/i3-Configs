@@ -265,8 +265,7 @@ exec skypeforlinux
 exec blueman-applet
 exec flameshot
 #exec telegram-desktop
-exec slack
-#exec planning
+#exec slack
 exec insync start
 #enable touchpad taps
 #exec xinput set-prop 12 279 1
