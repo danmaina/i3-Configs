@@ -267,6 +267,7 @@ exec flameshot
 #exec telegram-desktop
 #exec slack
 exec insync start
+exec kuro
 #enable touchpad taps
 #exec xinput set-prop 12 279 1
 
