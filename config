@@ -243,7 +243,7 @@ bindsym $mod+l exec i3lock --color "$bg-color"
 bindsym XF86AudioRaiseVolume exec pactl set-sink-volume 0 +5% #increase sound volume
 bindsym XF86AudioLowerVolume exec pactl set-sink-volume 0 -5% #decrease sound volume
 bindsym XF86AudioMute exec pactl set-sink-mute 0 toggle # mute sound
-bindsym XF86AudioMicMute exec pactl set-source-mute 1 toggle # mute microphone
+bindsym XF86AudioMicMute exec pactl set-source-mute 0 toggle # mute microphone
 
 # Sreen brightness controls
 bindsym XF86MonBrightnessUp exec xbacklight -inc 5 # increase screen brightness
