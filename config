@@ -261,12 +261,10 @@ exec feh --bg-scale /home/dan_maina/Pictures/desktop/wallpaper_1.jpg
 exec pa-applet
 #exec jetbrains-toolbox
 exec copyq 
-exec skypeforlinux
+# exec skypeforlinux
 exec blueman-applet
 exec flameshot
-#exec telegram-desktop
-#exec slack
-exec insync start
+exec kuro
 #enable touchpad taps
 #exec xinput set-prop 12 279 1
 
