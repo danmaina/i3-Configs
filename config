@@ -13,11 +13,11 @@ set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font pango:System Liberation Sans 10
+font pango:System Liberation Sans 12
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
-font pango:System Liberation Sans 10
+font pango:System Liberation Sans 12
 
 # Before i3 v4.8, we used to recommend this one as the default:
 # font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
@@ -28,6 +28,8 @@ font pango:System Liberation Sans 10
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
+floating_minimum_size 720 x 600
+floating_maximum_size 1920 x 1200
 
 # start a terminal
 #bindsym $mod+Return exec i3-sensible-terminal
@@ -271,4 +273,4 @@ exec insync start
 #exec xinput set-prop 12 279 1
 
 # Setup My Home Desktop Displays 
-exec /home/andir/.screenlayout/home-screen-setup.sh
+exec /home/dan_maina/.screenlayout/home-screen-setup.sh
