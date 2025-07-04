@@ -228,6 +228,9 @@ hide_edge_borders both
 #       }
 #}
 
+# startup the xsettingsd Daemon
+exec_always --no-startup-id xsettingsd
+
 #Start Polybar
 exec_always sh ~/.config/polybar/launch.sh
 
@@ -257,7 +260,7 @@ bindsym --release Num_Lock  exec pkill -SIGRTMIN+11 i3blocks
 # bindsym XF86TouchpadToggle exec /some/path/toggletouchpad.sh # toggle touchpad
 
 #Auto Start Apps
-exec feh --bg-scale /home/andir/Pictures/desktop/wallpaper_1.png
+exec feh --bg-scale /home/md/Pictures/desktop/wallpaper_1.png
 exec pa-applet
 #exec jetbrains-toolbox
 exec copyq 
@@ -269,7 +272,6 @@ exec flameshot
 exec insync start
 #enable touchpad taps
 #exec xinput set-prop 12 279 1
-exec emote
 
 # Setup My Home Desktop Displays 
 exec /home/md/.screenlayout/home-screen-setup.sh
